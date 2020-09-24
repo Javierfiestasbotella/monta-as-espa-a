@@ -1,0 +1,735 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>picos</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/eslitos.css">
+
+</head>
+
+<body>
+<header id="titulo"><img id="img1" src="imagenes/picos.png" width="100" height="30"alt=""> Los picos más altos de España
+<img id="img1" src="imagenes/picos.png" width="100" height="30"alt=""></header>
+<nav id="provincias">
+    <ul>
+        <li id="andalucia">Andalucía</li>
+        <li id="galicia">Galícia</li>
+        <li id="castillaYLeon">Castilla y León</li>
+        <li id="cantabria">Cantábria
+        </li>
+        <li id="asturias">Asturias</li>
+        <li id="madrid">Madrid</li>
+        <li id="cataluña">Cataluña</li>
+        <li id="aragon">Aragón</li>
+        <li id="valencia">Valencia</li>
+        <li id="castillaLaMancha">Castilla la Mancha</li>
+        <li id="extremadura">Extremadura</li>
+        <li id="canarias">Canarias</li>
+        <li id="islasBaleares">Islas Baleares</li>
+        <li id="paisVasco">País Vasco</li>
+        <li id="laRioja">La Rioja</li>
+        
+        <li id="murcia">Murcia</li>
+        <li id="navarra">Navarra</li>
+        <li id="ceuta">Ceuta</li>
+        <li id="melilla">Melilla</li>
+    </ul>
+</nav>
+   <div id="caja">
+   <div id="contenedorCero">
+       <ul id="anda">
+           <li id="chullo" name="andalucia">El chullo</li>
+           <li id="tiñosa" name="andalucia">La Tiñosa</li>
+           <li id="torreon" name="andalucia">El Torreón</li>
+           <li id="mulhacen" name="andalucia">El Mulhacén</li>
+           <li id="bonales" name="andalucia">Bonales</li>
+           <li id="magina" name="andalucia">La Mágina</li>
+           <li id="maroma" name="andalucia">La Maroma</li>
+           <li id="terril" name="andalucia">El Terril</li></ul>
+           <ul id="gal">
+           <li id="pilar" name="galicia">Pilar</li>
+           <li id="oMustallar" name="galicia">O Mustallar</li>
+           <li id="peña" name="galicia">Peña Trevinca</li>
+           <li id="faro" name="galicia">Faro</li>
+       </ul>
+       <ul id="madr">
+           <li id="macizo"name="madrid">Macizo de Peñalara</li>
+       </ul>
+       <ul id="extrem">
+           <li id="calvitero"name="caceres">Calvitero</li>
+           <li id="cerroDeTentudia"name="badajoz">Cerro de Tentudía</li>
+       </ul>
+       <ul id="cantab">
+           <li id="peñaVieja" name="cantabria">Peña Vieja</li>
+       </ul>
+       <ul id="castillaYLeo">
+           <li id="moncayo" name="castillaYLeon">Moncayo</li>
+           <li id="chanchalDeLaCeja" name="castillaYLeon">Chanchal de la Ceja</li>
+           <li id="peñaTrevinca" name="castillaYLeon">Peña Trevinca</li>
+           <li id="chuchillejo" name="castillaYLeon">Chuchillejo</li>
+           <li id="peñaPrietaSur" name="castillaYLeon">Peña Prieta Sur</li>
+           <li id="torredeCerredo" name="castillaYLeon">Torre de Cerredo</li>
+           <li id="almanzor" name="castillaYLeon">Almanzor</li>
+       </ul>
+       <ul id="astur" >
+           <li id="torreDeCerredo" name="asturias">Torre de Cerredo</li>
+       </ul>
+       <ul id="cataluñ">
+           <li id="costaCabirolera" name="cataluña">Costa Cabirolera</li>
+           <li id="puigPedros" name="cataluña">Puig Pedrós</li>
+           <li id="picadEstats" name="cataluña">Pica d'Estats</li>
+           <li id="caro" name="cataluña">Caro</li>
+       </ul>
+       <ul id="arago">
+           <li id="peñarroya" name="aragon">Peñarroya</li>
+           <li id="moncayoAragon" name="aragon">Moncayo</li>
+           <li id="aneto" name="aragon">Aneto</li>
+       </ul>
+       
+       <ul id="valenci">
+           <li id="peñagolosa" name="valencia">Peñagolosa</li>
+           <li id="aitana" name="valencia">Aitana</li>
+           <li id="cerroCalderon" name="valencia">Cerro Calderón</li>
+       </ul>
+       
+       <ul id="castillaLaManch">
+           <li id="laAtalaya" name="castillaLaMancha">La Atalaya</li>
+           <li id="picoAmor" name="castillaLaMancha">Pico Amor</li>
+           <li id="mogorrita" name="castillaLaMancha">Mogorrita</li>
+           <li id="picoDelLobo" name="castillaLaMancha">Pico del Lobo</li>
+           <li id="corochoDeRocialgo" name="castillaLaMancha">Corocho de Rocigalgo</li>
+       </ul>
+       
+       <ul id="canaria">
+           <li id="elTeide" name="canarias">El Téide</li>
+           <li id="morroDeLaAgujereada" name="canarias">Morro de la Agujereada1</li>
+       </ul>
+       
+       <ul id="islaBaleare">
+           <li id="puigMajor" name="islasBaleares">Puig Major</li>
+       </ul>
+       <ul id="paisVasc">
+           <li id="gorbeia" name="paisVasco">Gorbeia</li>
+           <li id="igueldo" name="paisVasco">Igueldo</li>
+           <li id="aitxurri" name="paisVasco">Aitxuri</li>
+       </ul>
+       <ul id="laRioj">
+           <li id="sanLorenzo" name="laRioja">San Lorenzo</li>
+       </ul>
+       
+       <ul id="murci">
+           <li id="picoDelObispo" name="murcia">Pico del Obispo</li>
+       </ul>
+       <ul id="navarr">
+           <li id="mesaDeLosTresReyes" name="navarra">Mesa de los Tres Reyes</li>
+       </ul>
+          <ul id="ceut">
+           <li id="monteAnyera" name="ceuta">Monte Anyera</li>
+       </ul>
+          <ul id="melill">
+           <li id="gurugu" name="melilla">Gurugú</li>
+       </ul>
+       
+   </div>
+   
+    <div id="contenedorDos">    <div id="contenedorUno"><img src="" alt=""> <div id="textoFoto"><h3></h3></div>
+   
+    </div>
+</div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+   
+    <div id="contenedorTres"></div>
+<div id="contenedorCuatro"><img src="" alt=""></div>
+<div id="contenedorCinco"><a href="https://es.wikiloc.com/" id="rutas"target="_blank">Rutas en Wickiloc</a></div>
+
+<script>
+    
+  $(document).ready(function(){
+      
+    
+     $("#contenedorCero li").hide(); 
+      $("#andalucia").click(function(){
+           $("#contenedorCero li").hide(); 
+         $("#anda li").show();  
+      });
+       
+      
+       $("#galicia").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#gal li").show();  
+      });
+     
+       $("#madrid").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#madr li").show();  
+      });
+     
+       $("#extremadura").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#extrem li").show();  
+      });
+      
+      $("#cantabria").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#cantab li").show();  
+      });
+     
+       $("#asturias").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#astur li").show();  
+      });
+      
+      
+      $("#castillaYLeon").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#castillaYLeo li").show();  
+      });
+      
+       $("#cataluña").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#cataluñ li").show();  
+      });
+      
+      $("#aragon").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#arago li").show();  
+      });
+      
+      $("#valencia").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#valenci li").show();  
+      });
+      
+      $("#castillaLaMancha").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#castillaLaManch li").show();  
+      });
+      
+      $("#canarias").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#canaria li").show();  
+      });
+      
+      $("#islasBaleares").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#islaBaleare li").show();  
+      });
+      
+      $("#paisVasco").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#paisVasc li").show();  
+      });
+      
+      $("#laRioja").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#laRioj li").show();  
+      });
+      
+       $("#murcia").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#murci li").show();  
+      });
+      
+      
+       $("#navarra").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#navarr li").show();  
+      });
+      
+       $("#ceuta").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#ceut li").show();  
+      });
+      
+      
+       $("#melilla").click(function(){
+          $("#contenedorCero li").hide();  
+         $("#melill li").show();  
+      });
+      
+      $("#chullo").click(function(){
+          $("#contenedorCero li").removeClass("destacar"); 
+          $("#chullo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/1.jpg");
+        
+          
+          $("#contenedorTres").html("<p>El Chullo, con <b>2611</b> msnm, es el pico más alto de la provincia de Almería. Está integrado en la cordillera Penibética, más específicamente en Sierra Nevada, de cuyo parque nacional forma parte.");
+            $("#contenedorCuatro img").attr("src","");
+          $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.999%2C-179.999&ne=89.999%2C179.999&q=el%20chullo&fitMapToTrails=1&page=1");
+         
+         
+      });
+       $("#tiñosa").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#tiñosa").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/2.jpg");
+          $("#contenedorTres").html("<p>El pico de la Tiñosa o simplemente La tiñosa es una montaña 1​ de la Cordillera Subbética situada en el cordal principal de la sierra Horconera, en la provincia de Córdoba, en Andalucía, España. Está situado en el municipio de Priego de Córdoba.");
+            $("#rutas").attr("href","https://es.wikiloc.com/rutas-senderismo/rutas-a-pie-las-lagunillas-la-tinosa-3897085");
+           });
+      
+      
+      $("#torreon").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#torreon").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/3.jpg");
+          $("#contenedorTres").html("<p>El pico El Torreón está situado en la Sierra del Pinar, dentro del conjunto de sierras que conforman la Sierra de Grazalema en la provincia de Cádiz en España situado a <b> 1654</b> m sobre el nivel del mar.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9993358%2C-179.999&ne=89.999%2C179.999&q=El%20Torreon%20cadiz&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#mulhacen").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#mulhacen").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/4.jpg ");
+          $("#contenedorTres").html("<p>El Mulhacén, con una altitud de <b>3482,6 </b>m s. n. m., es el pico más alto de la península ibérica y el segundo de España tras el Teide, de 3718 m s. n. m. (Tenerife, Canarias). El Mulhacén forma parte del parque nacional de Sierra Nevada. Está enclavado en la provincia de Granada, en el sur peninsular de España, y pertenece a Sierra Nevada, en la cordillera Penibética.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9993358%2C-179.999&ne=89.999%2C179.999&q=mulhacen&fitMapToTrails=1&page=1");
+           });
+      
+      
+      
+      
+       $("#bonales").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#bonales").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/5.jpg");
+          $("#contenedorTres").html("<p>El monte Bonales (también conocido como cerro Bonales o cumbre Bonales) es, con <b>1055 </b>msnm, la elevación más alta de la provincia andaluza de Huelva, en el municipio de Arroyomolinos de León, encuadrado en el Parque natural de Sierra de Aracena y Picos de Aroche y prácticamente en la frontera con la provincia extremeña de Badajoz.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9994190%2C-179.999&ne=89.999%2C179.999&q=bonales&fitMapToTrails=1&page=1");
+           });
+      
+      
+      
+       $("#magina").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#magina").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/6.jpg");
+          $("#contenedorTres").html("<p>El pico Mágina es un cerro situado en el parque natural de Sierra Mágina en la provincia de Jaén. Su altitud es de <b>2167</b> msnm.2​ Es el pico más alto de esta provincia y forma parte de las 8 Cimas de Andalucía. Se encuentra en la divisoria de los términos municipales de Albanchez de Mágina y de Huelma, en una larga cuerda que supera los dos mil metros a lo largo de 5 km, desde la Peña de Jaén (2147 m) Miramundos 2077 msnm hasta Peña Grajera (2014 m).");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9994190%2C-179.999&ne=89.999%2C179.999&q=magina&fitMapToTrails=1&page=1");
+           });
+      
+       $("#maroma").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#maroma").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/7.jpg");
+          $("#contenedorTres").html(" <p>  La Maroma, con <b>2069</b> msnm de altitud,1​2​es el pico más alto de la sierra de Tejeda, dentro del parque natural de las Sierras de Tejeda, Almijara y Alhama. Es el punto más alto de la comarca de la Axarquía y de toda la provincia de Málaga, en España, formando parte de las 8 Cimas de Andalucía.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=maroma&fitMapToTrails=1&page=1");
+           });
+      
+      $("#terril").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#terril").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/8.jpg");
+          $("#contenedorTres").html("<p>El pico del Terril es la máxima altitud de la provincia española de Sevilla en Andalucía, con <b>1129</b> msnm. Se localiza en la localidad sevillana de Pruna, teniendo como vecino al peñon de Algámitas.");
+          $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=El%20Terril&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#pilar").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#pilar").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/8.jpg");
+          $("#contenedorTres").html("El pico Pilar con sus 803 metros de altura es la cota más alta de la provincia de A Coruña (Galicia), situado en los Montes del Bocelo muy cerca de la localidad de Melide, es una montaña sin interés ninguno en cuanto a la montaña se refiere, en su cima a la que se llega en coche y que además tiene instalada una torre de vigilancia de incendios apenas si tiene nada reseñable.");
+           $("#rutas").attr("href","https://es.wikiloc.com/rutas-senderismo/pico-pilar-techo-de-la-coruna-aventuraslya-28513900");
+           });
+      
+      //linea 57
+      $("#oMustallar").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#oMustallar").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/13.jpg");
+          $("#contenedorTres").html("<p>El pico Mustallar es una montaña perteneciente a la sierra de Ancares (España). Es una de las cimas más altas de la sierra, y también, con sus <b>1935</b> msnm, el punto más alto de la provincia de Lugo. El pico se encuentra en el límite entre esta provincia y la de León");
+          $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=o%20mustallar&fitMapToTrails=1&page=1");
+           });
+      
+      //linea58
+       $("#peña").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peña").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/14.jpg");
+          $("#contenedorTres").html("<p>Pena Trevinca, con una altura máxima de 2.127 metros es el punto más alto de este macizo que también cuenta con otras montañas importantes como Pena Negra con <b>2.121</b> metros o Pena Surbia con 2.095 metros. Esta área está incluida en la Red Natura 2.000 y es Lugar de Importancia Comunitaria (LIC), además de Zona de Especial Protección para las Aves (ZEPA).");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=pe%C3%B1a%20trevinca&fitMapToTrails=1&page=1");
+           });
+      
+      
+      //linea59
+      $("#faro").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#faro").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/15.jpg");
+          $("#contenedorTres").html("<p>Desde le puerto de Vegarada y con buen tiempo, no es demasiado difícil ascender al Pico Faro de <b>2110</b> m de altitud (La cumbre mas a nuestra derecha según se mira). Es necesario seguir un marcado sendero que nos introduce en la Puertona de Faro, (Ese gran hueco que vemos a la izquierda).");
+          $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=Pico%20faro%20&fitMapToTrails=1&page=1");
+           });
+      
+      
+      
+       $("#moncayo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#moncayo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/16.jpg");
+          $("#contenedorTres").html("El Moncayo o San Miguel es una montaña del sistema Ibérico situada entre las provincias de Zaragoza (Aragón) y Soria (Castilla y León) en España. Con sus <b>2314,30</b> m s. n. m., es la máxima cumbre del sistema Ibérico y uno de los picos más relevantes de la península ibérica y el pico más elevado tanto de la provincia zaragozana como de la soriana.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=moncayo%20soria&fitMapToTrails=1&page=1");
+           });
+      
+      
+      $("#chanchalDeLaCeja").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#chanchalDeLaCeja").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/17.jpg");
+          $("#contenedorTres").html("El Canchal de la Ceja es el pico más alto de la Sierra de Béjar con <b>2428</b>ms. m.n. o Sector Occidental de la Sierra de Gredos. Se sitúa en el límite de las provincias de Ávila y Salamanca, de la cual es el punto más elevado.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992073%2C-179.999&ne=89.999%2C179.999&q=chanchal%20de%20la%20ceja&fitMapToTrails=1&page=1");
+           });
+      
+      
+      $("#peñaTrevinca").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peñaTrevinca").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/18.jpg");
+          $("#contenedorTres").html("Situados al este de la provincia de Ourense, los montes de Pena Trevinca son un espacio natural protegido que ocupa casi 25.000 hectáreas. Sus cumbres,  de más de 2.000 m de altitud y nevadas en invierno, están coronadas por lagos glaciares como O Celo o la Lagoa da Serpe, de aguas purísimas y cristalinas. Estas son montañas que apenas muestran la huella del  hombre.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.999%2C-179.999&ne=89.999%2C179.999&q=pe%C3%B1a%20tevinca&fitMapToTrails=1&page=1");
+           });
+      
+      $("#chuchillejo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#chuchillejo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/19.jpg");
+          $("#contenedorTres").html("El Pico Cuchillejo de <b>932</b> metros​​ es el pico más alto de la provincia de Valladolid Se encuentra dentro del término municipal de Castrillo de Duero. El lugar exacto de la cima se encuentra marcado con un montículo de piedras");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9995481%2C-179.999&ne=89.999%2C179.999&q=cuchillejo&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#peñaPrietaSur").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peñaPrietaSur").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/20.jpg");
+          $("#contenedorTres").html("Peña Prieta es el pico culminante del macizo de Fuentes Carrionas, en la cordillera Cantábrica, España. Se encuentra repartido entre las provincias de Cantabria y Palencia, si bien su cima<b> (2539,9 msnm)</b>1​ se halla dentro de la provincia cántabra, muy próxima a los Picos de Europa y es la máxima altura de la cordillera Cántabrica sin considerar dichos picos.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9995481%2C-179.999&ne=89.999%2C179.999&q=pe%C3%B1a%20prieta%20sur&fitMapToTrails=1&page=1");
+           });
+      
+      //linea77
+      $("#torreDeCerredo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#torreDeCerredo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/21.jpg");
+          $("#contenedorTres").html("Torre Cerredo,1​ también nombrado como Torrecerredo2​ o Torre de Cerredo (La Torre Cerréu en asturiano),3​ con sus <b>2650 </b>msnm, es la montaña de mayor altitud de Asturias y de la provincia de León así como de los Picos de Europa y de la cordillera Cantábrica.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9995481%2C-179.999&ne=89.999%2C179.999&q=torre%20de%20cerredo&fitMapToTrails=1&page=1");
+           });
+      
+      $("#almanzor").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#almanzor").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/22.jpg");
+          $("#contenedorTres").html("El pico Almanzor, a veces citado como Plaza del Moro Almanzor,1​2​3​ es una montaña de la península ibérica, la cumbre más alta de la sierra de Gredos y de todo el sistema Central, con <b>2591</b> m s. n. m.4​ y una prominencia de 1690 m. Se localiza en la provincia castellano y leonesa de Ávila, España; su cumbre forma parte de la divisoria entre los municipios de Zapardiel de la Ribera y Candeleda.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9995481%2C-179.999&ne=89.999%2C179.999&q=almanzor&fitMapToTrails=1&page=1");
+           }); 
+      
+      //linea 69
+      
+      $("#peñaVieja").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peñaVieja").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/23.jpg");
+          $("#contenedorTres").html("Peña Vieja es un pico calcáreo enclavado en el Macizo Central de los Picos de Europa o macizo de los Urrieles, en Cantabria.1​ Administrativamente, Peña Vieja se encuentra situado en el municipio cántabro de Camaleño y dentro del parque nacional de Picos de Europa.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.999%2C-179.999&ne=89.999%2C179.999&q=pe%C3%B1a%20vieja&fitMapToTrails=1&page=1");
+         
+           });
+      
+      //linea 77
+      
+      $("#torredeCerredo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#torredeCerredo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/24.jpg");
+          $("#contenedorTres").html("Torre Cerredo,1​ también nombrado como Torrecerredo2​ o Torre de Cerredo (La Torre Cerréu en asturiano),3​ con sus <b>2650</b> msnm, es la montaña de mayor altitud de Asturias y de la provincia de León así como de los Picos de Europa y de la cordillera Cantábrica.");
+           $("#rutas").attr("href","https://es.wikiloc.com/wikiloc/map.do?sw=-89.9995481%2C-179.999&ne=89.999%2C179.999&q=torre%20de%20cerredo&fitMapToTrails=1&page=1");
+           });
+      
+      //liea 62
+      
+       $("#macizo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#macizo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/24.jpg");
+          $("#contenedorTres").html("Peñalara es una montaña del interior de la península ibérica, la más alta de la sierra de Guadarrama —perteneciente al sistema Central— y de las provincias españolas de Madrid y Segovia, con <b>2428 </b>metros sobre el nivel del mar.");
+           $("#rutas").attr("href","https://es.wikiloc.com/rutas-mountain-bike/cotos-rascafria-puerto-de-reventon-la-granja-cotos-vuelta-al-macizo-de-penalara-7132682");
+           });
+      
+      
+      $("#costaCabirolera").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#costaCabirolera").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/26.jpg");
+          $("#contenedorTres").html("El pico de Costa Cabirolera es una cumbre de la sierra del Cadí, en el Prepirineo catalán, en España. Es la cima más alta del Bergadá y de la provincia de Barcelona con <b> 2604</b> metros de altitud. ");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=38.46219172306828%2C-5.844726562500001&ne=45.87471224890479%2C9.162597656250002&q=costa%20cabirolera&page=1");
+           });
+      //linea86
+      
+      $("#picadEstats").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#picadEstats").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/27.jpg");
+          $("#contenedorTres").html("La Pica d'Estats es una de las montañas más altas de la cordillera de los Pirineos con <b>3143</b> metros de altitud. Tiene una altitud de 3143 metros y se encuentra en la frontera entre España y Francia. También es el pico más alto de Cataluña.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=Pica%20d%27Estats&fitMapToTrails=1&page=1");
+           });
+      
+      // linea 85
+      
+      $("#puigPedros").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#puigPedros").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/28.jpg");
+          $("#contenedorTres").html("Para llegar se debe caminar 3 horas desde el refugio de Malniu. La montaña tiene<b> 2914</b> metros de altura y es la más alta de la provincia de Girona. La subida es relativamente sencilla desde el Refugio de Meranges estando el camino muy marcado. No hay ninguna dificultad técnica que superar para llegar a la cima.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=Puig%20Pedr%C3%B3s&fitMapToTrails=1&page=1");
+           });
+      
+      $("#caro").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#caro").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/29.jpg");
+          $("#contenedorTres").html("El Caro, es una cima de <b>1441</b> metros de altura, ​ perteneciente a la cordillera Prelitoral Catalana en el noreste de la península ibérica. Situado más concretamente en el seno del parque natural dels Ports, constituye el punto más alto de la provincia de Tarragona.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=mont%20caro&fitMapToTrails=1&page=1");
+           });
+      
+      $("#peñarroya").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peñarroya").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/30.jpg");
+          $("#contenedorTres").html("El pico de Peñarroya es una montaña del Sistema Ibérico situada en Alcalá de la Selva, en la provincia de Teruel. Con sus <b>2028,228 </b>m de altitud, ​ constituye la máxima elevación del Sistema Ibérico turolense.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=pico%20pe%C3%B1arroya&fitMapToTrails=1&page=1");
+           });
+      
+      //linea 91
+      $("#moncayoAragon").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#moncayoAragon").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/31.jpg");
+          $("#contenedorTres").html("La sierra del Moncayo es una cadena montañosa de 15 km de largo y unos 7 km de ancho que da nombre a la comarca de Tarazona y el Moncayo, en Aragón, España con <b>2314</b>metros de altitud. La cumbre más alta el Moncayo o San Miguel, es el punto más alto del Sistema Ibérico, de 500 km de longitud.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=moncayo&fitMapToTrails=1&page=1");
+           });
+      
+      //linea 92
+      
+      $("#aneto").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#aneto").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/33.jpg");
+          $("#contenedorTres").html("El Aneto (en aragonés, y oficialmente, es el pico más elevado de los Pirineos, con una altitud de <b>3404 </b>metros sobre el nivel del mar. Se encuentra situado en el Parque natural Posets-Maladeta, en el municipio de Benasque, provincia de Huesca, comunidad autónoma de Aragón, en España.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=aneto&fitMapToTrails=1&page=1");
+           });
+      
+      
+      
+      $("#peñagolosa").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#peñagolosa").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/34.jpg");
+          $("#contenedorTres").html("El Peñagolosa es una montaña a <b>1.813</b> m del macizo que lleva su nombre, en la provincia de Castellón. Pertenece al sistema Ibérico y es el pico más alto de la provincia de Castellón y el segundo más alto de la Comunidad Valenciana, solo superado por el Cerro Calderón, localizado en el Rincón de Ademuz.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=pe%C3%B1agolosa&fitMapToTrails=1&page=1");
+           });
+      
+      $("#aitana").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#aitana").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/35.jpg");
+          $("#contenedorTres").html("La sierra de Aitana a <b>1558 </b>msnm es un conjunto montañoso que forma parte del sistema Prebético, en su extremo más oriental dentro de la península ibérica. Está encuadrada en el norte de la provincia de Alicante, y presenta una disposición este-oeste.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=pico%20aitana&fitMapToTrails=1&page=1");
+           });
+      
+      $("#").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","");
+          $("#contenedorTres").html("");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9998091%2C-179.999&ne=89.999%2C179.999&q=cerro%20de%20calderon&fitMapToTrails=1&page=1");
+           });
+      
+      $("#cerroCalderon").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#cerroCalderon").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/36.jpg");
+          $("#contenedorTres").html("El Cerro Calderón o Alto de las Barracas es una montaña del este de España  a <b>1832</b>perteneciente a la sierra de Javalambre, dentro del sistema Ibérico. Se encuentra entre el Rincón de Ademuz y la provincia de Teruel, concretamente en la localidad valenciana de Puebla de San Miguel.");
+           $("#rutas").attr("");
+           });
+      
+      //linea105
+      
+      $("#picoDelLobo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#picoDelLobo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/37.jpg");
+          $("#contenedorTres").html("El pico del Lobo es la montaña más elevada de la Sierra de Ayllón, en el Sistema Central español, en el término municipal de El Cardoso de la Sierra, con <b>2274</b> metros de altitud. Constituye a su vez la cumbre más alta de la provincia de Guadalajara y de la comunidad autónoma de Castilla-La Mancha.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.999%2C-179.999&ne=89.999%2C179.999&q=pico%20del%20lobo%20guadalajara&fitMapToTrails=1&page=1");
+           });
+      //linea 103
+      $("#picoAmor").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#picoAmor").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/38.jpg");
+          $("#contenedorTres").html(" Pico  a <b>1379</b> metros de altitudtécnicamente fácil y estratégicamente difícil, porque está rodeado de barreras, vallas y prohibiciones, de cotos de exterminación faunística.El techo de Ciudad Real es un poco rarito ya que no se corresponde exactamente con un pico, sino que sería un punto que estaría en el lateral SO del Pico Amor, mientras que el pico más alto de la provincia sería el contiguo Riscos del Amor.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=pico%20amor&fitMapToTrails=1&page=1");
+           }); 
+      //linea 104
+      $("#mogorrita").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#mogorrita").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/40.jpg");
+          $("#contenedorTres").html("El pico o cerro de la Mogorrita  a <b>1865</b> metros de altitudes una montaña de España, situada en la provincia castellanomanchega de Cuenca, perteneciente al municipio homónimo de Cuenca. Constituye el punto de mayor altitud de la serranía de Cuenca​ y de la provincia. ");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=pico%20mogorrita&fitMapToTrails=1&page=1");
+           });
+      //linea 106
+      $("#corochoDeRocialgo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#corochoDeRocialgo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/39.jpg");
+          $("#contenedorTres").html("El Pico Rocigalgo o Corocho de Rocigalgo a <b>1448</b> metros de altitud es la montaña más elevada de la provincia de Toledo y una de las más altas de los Montes de Toledo con una altitud de 1448 metros. Pertenece al Parque nacional de Cabañeros, en el término municipal de Los Navalucillos, en Castilla-La Mancha.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=pico%20Corocho%20de%20Rocigalgo&fitMapToTrails=1&page=1");
+           }); 
+      
+      $("#laAtalaya").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#laAtalaya").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/41.jpg");
+          $("#contenedorTres").html("La Atalaya es la montaña más elevada de la Sierra de las Cabras y de toda la Provincia de Albacete. Se eleva hasta los <b>2083</b> metros de altitud y pertenece al Sistema Bético, en el extremo sur de la provincia, muy cerca del límite con Andalucía.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=ruta%20atalaya%20albacete&fitMapToTrails=1&page=1");
+           }); 
+      
+      $("#calvitero").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#calvitero").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/42.jpg");
+          $("#contenedorTres").html("Calvitero es una montaña de la sierra de Béjar, sistema Central, en la península ibérica. Localizada en el oeste de España, constituye el pico más elevado de la comunidad autónoma de Extremadura, con <b>2399</b> msnm.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=calvitero&fitMapToTrails=1&page=1");
+           });
+      
+      //linea 66
+      $("#cerroDeTentudia").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#cerroDeTentudia").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/43.jpg");
+          $("#contenedorTres").html("El punto más elevado de Badajoz es el cerro de Tentudía. En la misma cumbre hay un monasterio mudéjar del siglo XIII. Si este monasterio no existiera, y según he leído en algún sitio mientras preparaba el viaje, el techo de Badajoz estaría a <b>1.104</b> metros. ");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=cerro%20de%20tentudia&fitMapToTrails=1&page=1");
+           });
+      
+      
+      $("#morroDeLaAgujereada").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#morroDeLaAgujereada").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/44.jpg");
+          $("#contenedorTres").html("El Morro de la Agujereada es la máxima altitud de la isla de Gran Canaria, Islas Canarias, España. Situado en El Pico de las Nieves, alcanza una cota de<b> 1956</b> metros sobre el nivel del mar, siendo la mayor altitud de la provincia de Las Palmas.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=Morro%20de%20la%20Agujereada1&fitMapToTrails=1&page=1");
+           });
+      
+      
+      $("#elTeide").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#elTeide").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/45.jpg");
+          $("#contenedorTres").html("El Teide es un volcán situado en la isla de Tenerife (Canarias, España). Cuenta con una altitud de <b>37182 </b> metros sobre el nivel del mar y 7500 metros sobre el lecho oceánico, es el pico más alto del país, el de cualquier tierra emergida del océano Atlántico y el tercer mayor volcán de la Tierra desde su base en el lecho oceánico, después del Mauna Kea y el Mauna Loa, ambos en Hawái.3 La altitud del Teide convierte además a la isla de Tenerife en la décima isla más alta del mundo.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=28.261385377363453%2C-16.655126067385247&ne=28.28399462263655%2C-16.62945393261475&q=El%20Teide&place=Pico%20de%20Teide&page=1");
+           });
+      
+      //linea115
+      $("#puigMajor").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#puigMajor").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/46.jpg");
+          $("#contenedorTres").html("El Puig Major es el punto más elevado de la isla de Mallorca y también de las Islas Baleares. Alcanza los <b>1445</b> metros de altitud y está situado en la sierra de Tramontana, en el municipio de Escorca.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=puig%20major&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+      
+      $("#gorbeia").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#gorbeia").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/47.jpg");
+          $("#contenedorTres").html("El monte Gorbea a <b>1481</b> metros de altitud es la cumbre más alta del macizo montañoso del mismo nombre, situado en los Montes Vascos, a caballo entre las provincias de Álava y Vizcaya, en el País Vasco.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=gorbeia&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      $("#igueldo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#igueldo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/48.jpg");
+          $("#contenedorTres").html("El monte Igueldo se encuentra al oeste de la ciudad de San Sebastián y al este del barrio de Igueldo y su cima está a <b>181</b> metros sobre el nivel del mar. Es una de las tres cumbres que se pueden ver desde la bahía de La Concha, junto con la isla de Santa Clara y el monte Urgull.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=pico%20igueldo&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+       $("#aitxurri").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#aitxurri").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/49.jpg");
+          $("#contenedorTres").html("El Aitxuri, Atxurri o Aitz txuri es una montaña de <b>1551</b> metros de altitud perteneciente a los montes vascos. Está situado en Guipúzcoa, País Vasco. Situado en la sierra de Aizkorri es el pico más alto de la misma.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=pico%20aitxurri&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+       $("#sanLorenzo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#sanLorenzo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/50.jpg");
+          $("#contenedorTres").html("El San Lorenzo, con <b>2271</b> msnm, ​ es el pico más alto de La Rioja (España) y el segundo del sistema Ibérico tras el Moncayo.​ Forma parte de la sierra de la Demanda.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=Pico%20san%20lorenzo&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#picoDelObispo").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#picoDelObispo").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/51.jpg");
+          $("#contenedorTres").html("Se encuentra en el extremo oeste del municipio de Moratalla. Está declarado como lugar de importancia comunitaria . En este macizo, donde son habituales las nevadas invernales, se encuentra el único dos mil de la Región de Murcia y los tres picos que forman el techo de la provincia. Obispo<b> (2.014 m)</b>");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=Pico%20del%20obispo&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#mesaDeLosTresReyes").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#mesaDeLosTresReyes").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/52.jpg");
+          $("#contenedorTres").html("La mesa de los Tres Reyes es una montaña situada en la cordillera de los Pirineos y el Macizo de Larra. Su cumbre de <b>2442 </b>m se encuentra situada en la intersección de la frontera de Francia con España y la línea limítrofe entre la Comunidad Foral de Navarra y la provincia de Huesca en la comunidad autónoma de Aragón.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=Pico%20mesa%20de%20los%20tres%20reyes&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+      
+       $("#monteAnyera").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#monteAnyera").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/53.jpg");
+          $("#contenedorTres").html("Monte Anyera es una colina en Ceuta y tiene una altitud de<b> 310 </b>metros. Monte Anyera está situada al oeste de La Solanilla. Desde Mapcarta, el mapa libre.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=monte%20anyera&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+       $("#gurugu").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#gurugu").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/54.jpg");
+          $("#contenedorTres").html("El monte Gurugú a <b>892</b> metros de altitud es el punto más elevado del cabo de Tres Forcas, en la costa norte de Marruecos y forma parte de la sierra de Nador respectivamente.");
+           $("#rutas").attr("https://es.wikiloc.com/wikiloc/map.do?sw=-89.9992476%2C-179.999&ne=89.999%2C179.999&q=gurugu%20melilla&place=Pico%20de%20Teide&fitMapToTrails=1&page=1");
+           });
+      
+       $("#").click(function(){
+          $("#contenedorCero li").removeClass("destacar");  
+          $("#").addClass("destacar"); 
+          $("#contenedorDos img").attr("src","imagenes/.jpg");
+          $("#contenedorTres").html("");
+           $("#rutas").attr("");
+           });
+      
+      
+     /* var picos=document.querySelectorAll("#contenedorCero li");
+      for (var i=0; i<picos.length;i++){
+          picos[i].addEventListener("cick",ponImagen,false);
+      }*/
+
+      
+  });  
+   
+   
+    </script>
+</body>
+
+</html>
